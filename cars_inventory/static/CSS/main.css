@@ -1,0 +1,33 @@
+/* Nav Styles */
+.ct-nav{
+    display: flex;
+    justify-content: center;
+}
+
+/* Target flying car logo */
+
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 5vw;
+    padding-top: 1vw;
+}
+
+ul#horizontal-list{
+    min-width: 65vw;
+    list-style: none;
+    padding-top: 2.2vw;
+}
+
+#horizontal-list li, #horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+#horizontal-list a:nth-child(1){
+    border: 2px solid green;
+    border-radius: 11px;
+    margin-right: .2vw;
+}
