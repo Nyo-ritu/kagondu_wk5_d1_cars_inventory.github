@@ -1,3 +1,6 @@
+body{
+    background-color: cadetblue;
+}
 /* Nav Styles */
 .ct-nav{
     display: flex;
@@ -14,9 +17,9 @@
 }
 
 ul#horizontal-list{
-    min-width: 65vw;
+    min-width: 55vw;
     list-style: none;
-    padding-top: 2.2vw;
+    padding-top: 2.4vw;
 }
 
 #horizontal-list li, #horizontal-list a{
@@ -31,3 +34,47 @@ ul#horizontal-list{
     border-radius: 11px;
     margin-right: .2vw;
 }
+
+/* Header */
+
+#header-text{
+    padding: 2vw;
+}
+
+#hv-image{
+    float: left;
+    width: 65%;
+    max-width: 100%;
+}
+
+/* Middle */
+
+#middle-text{
+    text-align: center;
+    padding: 2vh;
+}
+
+#middle-text h3{
+    padding: 2vw;
+
+}
+
+#mid-image{
+    width: 95%;
+    max-width: 100%;
+    margin:auto;
+    margin-bottom: auto;
+    margin-bottom: 2vw;
+
+}
+
+#features-section{
+    margin: 4vw;
+}
+
+
+
+
+
+
+
